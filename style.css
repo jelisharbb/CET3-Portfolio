@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  background-color: black;
+  height: fit-content;
+}
+
+.navbar {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  background-color: #57c3ad;
+  position: fixed;
+  z-index: 3;
+  display: block;
+  float: right;
+  overflow: hidden;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+
+.logo-sign {
+  height: 100%;
+  width: 100%;
+}
+
+.jrb-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar li {
+  float: right;
+  padding: 10px;
+  padding-right: 20px;
+  font-family: "merriweather", serif;
+  font-size: large;
+  color: black;
+  position: inline;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+.home {
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+#videobg {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  color: #57c3ad;
+}
+
+h2 {
+  font-family: "merriweather", serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #57c3ad;
+  top: 30%;
+  left: 50%;
+  transform: translate(0%, -50%);
+}
+
+#about-me,
+#others {
+  padding-top: 10%;
+}
+
+.about-me {
+  height: 100vh;
+  position: relative;
+  background-color: black;
+}
+
+.profile {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#profile-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+#profile-p {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Merriweather", serif;
+  color: #57c3ad;
+}
+
+#education,
+#scrapbook {
+  padding-top: 6%;
+}
+
+.education {
+  height: auto;
+  position: relative;
+  background-color: black;
+}
+
+table {
+  table-layout: auto;
+  width: 75%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-family: "merriweather", serif;
+  text-align: center;
+  color: #57c3ad;
+  padding: 5px;
+}
+
+td {
+  font-family: "merriweather", serif;
+  text-align: center;
+  color: #57c3ad;
+  padding: 5px;
+}
+
+table ul {
+  list-style-type: none;
+}
+
+.scrapbook {
+  position: relative;
+  background-color: black;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+}
+
+.subscrapbook {
+  position: relative;
+}
+
+#image1,
+#image4 {
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  padding: 20px;
+}
+
+#image2,
+#image3,
+#image5 {
+  position: relative;
+  display: inline-block;
+  height: 500px;
+  padding: 20px;
+}
+
+#image-p {
+  font-family: "merriweather", serif;
+  color: #57c3ad;
+  justify-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 2%;
+}
+
+.others {
+  height: auto;
+  position: relative;
+  background-color: black;
+}
+
+h3 {
+  font-family: "merriweather", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #57c3ad;
+  padding-bottom: 10px;
+}
+
+.fav-foods,
+.pet-peeves,
+.destination {
+  height: 310px;
+  width: 200px;
+  background-color: black;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  vertical-align: middle;
+  border: solid;
+  border-color: #57c3ad;
+}
+
+#lists {
+  font-family: "merriweather", serif;
+  color: #57c3ad;
+}
+
+.footer {
+  height: 50px;
+  padding: 10px;
+  border: 1px;
+  background-color: #57c3ad;
+}
+
+.footer-logos {
+  text-align: center;
+}
+
+#fb-logo,
+#ig-logo,
+#twt-logo {
+  height: 40px;
+  width: 43px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+#email-logo {
+  height: 40px;
+  width: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
